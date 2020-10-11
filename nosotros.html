@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+    
+     
+        <title></title>
+        
+                <meta charset="UTF-8">
+        <title>Menu de navegación</title>
+        <link rel= "stylesheet" type="text/css" href="estilo">
+        <ul class="menu">
+             <div>
+              <h1>Companía Cotrina</h1>
+          </div>
+           <div> <li> <a href="index.html">Inicio</a></li>
+           <li> <a href="NOSOTROS.html">Nosotros</a></li>
+           <li> <a href="productos.html">Productos</a></li>
+           <li> <a href="contacto.html">Contactanos</a></li></div>
+           
+        </ul> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/about.css">
+        <link href="img/icon.png" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" href="css/nosotros.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="js/jquery-3.2.1.js"></script> 
+        <script src="js/materialize.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.parallax').parallax();
+
+                $(function() {
+                    $(window).scroll(function() {
+                        if ($(window).scrollTop() > 400) {
+                            $(".header").addClass('active');
+                        } else {
+                            $(".header").removeClass('active');
+                        }
+                        });
+                    });
+            });
+        </script>
+        
+        
+    </head>
+    
+    
+    
+    
+    
+    <body>
+       
+        <?php include 'assets/header.php' ?>
+
+        <!-- Desde hace más de 10 años estamos compartiendo las hermosas prendas de vestir, tanto para damas, caballeros y niños, asismo brindamos al publico las mejores zapatillas, tanto deportivas como de vestir. -->
+        
+        <div class="banner">
+            <img src="img/home-1-slide-1.jpg" alt="">
+            <h1 class="animate__animated animate__bounceInDown">Nosotros</h1>
+        </div>
+
+        <main class="main">
+            <section class="group group--color"></section>
+            <section class="group our-team">
+                <h2 class="group__title">Nuestro equipo</h2>
+           
+            <div class="container container__flex">
+                <div class="caja">
+                    <h3 class="our-team__title">Equipo de Sastrería</h3>
+                    <img src="img/img-ropa1.jpg" alt="" class="our-team__img">
+                    <p class="our-team__txt">Es nuestro personal que ejerce el oficio de la sastrería, la cual es un arte que consiste en la creación de prendas de vestir para damos, caballeros y niños.</p>
+                </div>
+                <div class="caja">
+                    <h3 class="our-team__title">Equipo de recepción</h3>
+                    <img src="img/img-ropa2.jpg" alt="" class="our-team__img">
+                    <p class="our-team__txt">Es nuestro equipo, encargados de contactarse al cliente y de esa manera interactuar con sí mismo, para que este diga cuál es la prenda de su agrado.
+
+</p>
+                </div>
+                <div class="caja">
+                    <h3 class="our-team__title">Equipo de ventas</h3>
+                    <img src="img/img-ropa3.jpg" alt="" class="our-team__img">
+                    <p class="our-team__txt"> Son encargadas de observar las necesidades, asesoramiento y venta de productos y servicios a los clientes que acudan a la tienda. </p>
+                </div>
+            </div>
+                </section>
+                </main>
+            <div class="footer">
+    <div class="body">
+
+        <div class="logo">
+            <h1 class="logo_n">Cotrina Company</h1>
+        </div>
+
+        <div class="extra_info">
+            <div class="each">
+                <i class="icon fas fa-map-marker-alt"></i>
+                <div>
+                    <p>A 185,69 km del norte de Moyobamba-San Martin-Perú</p>
+                    <p class="important">Naranjillo</p>
+                </div>
+            </div>
+
+            <div class="each">
+                <i class="icon fas fa-phone-alt"></i>
+                <div>
+                    <p>+51 942 701 570</p>
+                </div>
+            </div>
+
+            <div class="each">
+                <div>
+                    <i class="icon fas fa-envelope"></i>
+                    <p class="resalte">victorcotrinaguevara@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <p class="title">Sobre nosotros</p>
+            <p>Tenemos todo lo que usted necesita, para que vista elegante y una buena vibra</p>
+            <div class="redes">
+                <a href="#"><i class="icon fab fa-facebook-f"></i></a>
+                <a href="#"><i class="icon fab fa-twitter"></i></a>
+                <a href="#"><i class="icon fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="info">
+        <p>2020 © Cotrina Company - Todos los derechos reservados</p>
+    </div>
+</div>
+        
+    </body>
+
+</html>

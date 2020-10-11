@@ -1,0 +1,157 @@
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 12.5px;
+    align-items: center;
+    background: rgba(245, 245, 245, 0);
+    position: fixed;
+    color: white;
+    top: 0;
+    left: 0;
+    transition: .5s all;
+    z-index: 100;
+}
+
+.header .logo_n {
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    text-align: center;
+}
+
+.header .menu-bar {
+    font-size: 25px;
+}
+
+.header .menu-bar:hover {
+    cursor: pointer;
+}
+
+.header.active {
+    background: white;
+    color: var(--rosa);
+}
+
+/* SideBar */
+.sidebar {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    background: var(--gris);
+    position: fixed;
+    top: 0;
+    transform: translateX(-100%);
+    transition: .5s;
+    z-index: 10000;
+}
+
+.sidebar.active {
+    transform: translateX(0);
+}
+
+.sidebar .logo_n {
+    font-size: 1.8em;
+    color: var(--rosa);
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.contenedor-menu {
+    width: 100%;
+    display: inline-block;
+    line-height: 18px;
+}
+
+.contenedor-menu .menu {
+    width: 100%;
+}
+
+.contenedor-menu ul {
+    list-style: none;
+}
+
+.contenedor-menu .menu li a {
+    color: var(--negro);
+    display: block; 
+    padding: 15px 20px;
+    background: var(--gris);
+}
+
+.contenedor-menu .menu li a:hover {
+    background: var(--celeste);
+    color: #fff;
+}
+
+.contenedor-menu .menu .icono {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contenedor-menu .menu .icono.izquierda {
+    float: left;
+    margin-right: 10px;
+}
+
+.contenedor-menu .menu .icono.derecha {
+    float: right;
+    margin-left: 10px;
+}
+
+.contenedor-menu .menu ul {
+    display: none;
+}
+
+.contenedor-menu .menu ul li a {
+    background: var(--negro);
+    color: var(--gris);
+}
+
+.contenedor-menu .menu .activado > a {
+    background: var(--celeste);
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    font-family:arial, helvetica;
+    list-style: none; 
+    padding: 0;
+    width: 100%;
+    text-decoration: none;
+    justify-content: space-between;  
+    height: 100%;
+    align-items: center;
+    background: blue;
+    
+}
+.menu li{
+        display: inline-block;
+        text-align: center;
+    }
+    .menu li a: hover{
+        background: White
+    }
+.menu div { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.menu h1 { text-align: center;
+    color: black;
+}
+.menu li {color: black; margin: 2px 5px;}
+
+
+
+

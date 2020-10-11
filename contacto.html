@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+    
+     
+        <title></title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Menu de navegación</title>
+        <link rel= "stylesheet" type="text/css" href="estilo">
+        
+        
+        <link rel="stylesheet" href="css/contact.css">
+        <link href="img/icon.png" rel="shortcut icon" type="image/x-icon" />
+          <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="js/jquery-3.2.1.js"></script> 
+        <script src="js/materialize.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.parallax').parallax();
+
+                $(function() {
+                    $(window).scroll(function() {
+                        if ($(window).scrollTop() > 400) {
+                            $(".header").addClass('active');
+                        } else {
+                            $(".header").removeClass('active');
+                        }
+                        });
+                    });
+            });
+        </script>
+        
+        
+    </head>
+    
+    
+    
+    
+    
+    <body>
+       
+       <ul class="menu">
+             <div>
+              <h1>Companía Cotrina</h1>
+          </div>
+           <div> <li> <a href="index.html">Inicio</a></li>
+           <li> <a href="NOSOTROS.html">Nosotros</a></li>
+           <li> <a href="productos.html">Productos</a></li>
+           <li> <a href="contacto.html">Contactanos</a></li></div>
+           
+        </ul>
+        <!-- Escribe aquí todo tu contenido -->
+        
+        <div class="banner">
+            <img src="img/home-1-slide-1.jpg" alt="">
+            <h1 class="animate__animated animate__bounceInDown">Déjanos un comentario</h1>
+        </div>
+
+        <div class="main">
+        <section class="group contact">
+            <h2 class="group__title">Contacténos</h2>
+            <div class="container container__flex">
+                <div class="contact-information column__50">
+                    <h3 class="column__title">Información de contacto</h3>
+                    <p class="column__text">Somos la mejor tienda para todos nuestros clientes. </p>
+                    <p class="column__text"><span class="icon fas fa-phone-alt"></span> Telefono 1: 51 942 701 570</p>
+                    <p class="column__text"><span class="icon fas fa-phone-alt"></span> Telefono 2: 51 917 597 968</p>
+                    <p class="column__text"><span class="icon fas fa-map-marker-alt"></span> A 185,69 km del norte de Moyobamba</p>
+                    <p class="column__text"><span class="icon fas fa-envelope"></span> victorcotrinaguevara@gmail.com</p>
+                </div>
+                <form action="gracias.html" method="post" class="formulariocolumn column__50">
+                  <label for="" class="formulario__label">Nombre:</label>
+                  <input type="text" class="formulario__input-txt"name="nombre" required>
+                    <label for="" class="formulario__label">Correo:</label>
+                  <input type="text" class="formulario__input-txt"name="correo"required>
+                    <label for="" class="formulario__label">Teléfono:</label>
+                  <input type="text" class="formulario__input-txt"name="telefono"required>
+                  <label for="" class="formulario__label">Mensaje:</label>
+                  <textarea name="mensaje"required id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+                  <div class="pie">
+                      <input type="submit" class="btn formulario__btn "value=" Enviar">
+                  </div>
+                </form>
+            </div>
+       <div class="footer">
+    <div class="body">
+
+        <div class="logo">
+            <h1 class="logo_n">Cotrina Company</h1>
+        </div>
+
+        <div class="extra_info">
+            <div class="each">
+                <i class="icon fas fa-map-marker-alt"></i>
+                <div>
+                    <p>A 185,69 km del norte de Moyobamba-San Martin-Perú</p>
+                    <p class="important">Naranjillo</p>
+                </div>
+            </div>
+
+            <div class="each">
+                <i class="icon fas fa-phone-alt"></i>
+                <div>
+                    <p>+51 942 701 570</p>
+                </div>
+            </div>
+
+            <div class="each">
+                <div>
+                    <i class="icon fas fa-envelope"></i>
+                    <p class="resalte">victorcotrinaguevara@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <p class="title">Sobre nosotros</p>
+            <p>Tenemos todo lo que usted necesita, para que vista elegante y una buena vibra</p>
+            <div class="redes">
+                <a href="#"><i class="icon fab fa-facebook-f"></i></a>
+                <a href="#"><i class="icon fab fa-twitter"></i></a>
+                <a href="#"><i class="icon fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="info">
+        <p>2020 © Cotrina Company - Todos los derechos reservados</p>
+    </div>
+</div>
+</html>

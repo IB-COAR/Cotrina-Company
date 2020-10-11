@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+    <head> 
+    
+     
+        <title></title>
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        
+        <link rel="stylesheet" href="css/contact.css">
+        <link href="img/icon.png" rel="shortcut icon" type="image/x-icon" />
+          <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+        
+        <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+        <script src="js/jquery-3.2.1.js"></script> 
+        <script src="js/materialize.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+        <script>
+            $(document).ready(function(){
+                (async () => {
+                    const {value: icon} = await Swal.fire({
+                        icon: 'success',
+                        title: 'Felicitaciones!',
+                        text: 'Hemos recibido tu mensaje. En breves momentos nos cantactaremos contigo. Muchas gracias.',
+                        stopKeydownPropagation: false,
+                        allowOutsideClick: false,
+                        allowEscapeKey: false,
+                        allowEnterKey: false,
+                    });
+                    if(icon){
+                        location.href="contacto.html";
+                    }
+                })()
+            });
+        </script>
+        
+        
+    </head>
+    
+    
+    
+    
+    
+    <body>
+        <!-- Hello world -->
+    </body>
+
+</html>
